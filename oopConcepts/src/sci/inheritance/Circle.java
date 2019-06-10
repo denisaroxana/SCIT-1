@@ -22,4 +22,12 @@ public class Circle extends Shape {
         // P = 2πr
         return 2 * pi * radius;
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", pi=" + pi +
+                '}';
+    }
 }

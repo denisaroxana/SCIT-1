@@ -26,4 +26,13 @@ public class Triangle extends Shape {
         // P = a + b + c
         return a + b + c;
     }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
 }
